@@ -42,7 +42,7 @@ function ContactForm() {
     return (
         <section>
           <h1 className="contact">Contact me</h1>
-          <form id="contact-form" class="contact" onSubmit={handleSubmit}>
+          <form id="contact-form" className="contact" onSubmit={handleSubmit}>
             <div className="contact">
               <label htmlFor="name">Name:</label>
               <input type="text" defaultValue={name} onChange={handleChange} name="name" />
