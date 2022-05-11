@@ -11,3 +11,174 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: #172A3A;
+}
+
+img { max-width: 100%; height: auto; }
+
+header{
+  width: 100%;
+}
+
+.center{
+  margin: 10px auto 10px auto;
+  width: 60%;
+  border: 5px solid #74B3CE;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+header a{
+  margin: auto;
+}
+
+header h1{ 
+  text-align: center;
+  font-size: 6vw;
+  color: #74B3CE;  
+}
+
+header button{
+  padding: 2px;
+  border-radius: 20px;
+  text-decoration: none;
+  background: none;
+  font-size: 3vw;
+  color: #EDF6F9; 
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+form {
+  width: 40%;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: white;
+}
+
+.flex-right{
+  display: inline-flex;
+  
+}
+
+.about-me{
+  border: solid;
+  border-color: 74B3CE;
+  border-radius: 10px;
+  color: #74B3CE;  
+}
+
+.sections{
+  color: #EDF6F9;  
+  text-align: center;
+  padding: 30px 0 20px 0;
+  font-size: 3vw;
+}
+
+.text-color{
+  color: #74B3CE;  
+}
+
+.about-me p{
+  color: #74B3CE;  
+  padding: 40px 10px 20px 10px;
+  font-size: 1.3vw;
+}
+
+#me{
+  height: 50%;
+  width: 50%;
+}
+
+.my-work{
+  text-align: center;
+}
+
+.my-work-h1{
+  padding: 10px 0 10px 0;
+  font-size: 2vw;
+}
+
+.projects{
+  padding: 30px 0 30px 0;
+  border: solid;
+  border-color: 74B3CE;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  
+}
+
+.projects h1{
+  font-size: 1.8vw;
+  margin: 5px 0 20px 0;
+}
+
+.desc{
+  font-size: 1.8vw;
+}
+
+.contact{
+  font-size: 2vw;
+}
+
+.github{
+  font-size: 1.2vw;
+  padding: 2px 0 5px 0;
+}
+
+.contact{
+  color: white;
+  margin: 10px auto 10px auto;
+  width: 80%;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  border-top: solid;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+            /* Height of the footer*/ 
+  height: 40px;
+  background: grey;
+}
+
+@media screen and (max-width: 480px) {
+  .contact{
+      font-size: 20px;
+  }
+}
+
