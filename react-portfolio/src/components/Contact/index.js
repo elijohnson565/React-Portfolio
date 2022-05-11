@@ -43,20 +43,20 @@ function ContactForm() {
         <section>
           <h1 className="contact">Contact me</h1>
           <form id="contact-form" class="contact" onSubmit={handleSubmit}>
-            <div class="contact">
+            <div className="contact">
               <label htmlFor="name">Name:</label>
               <input type="text" defaultValue={name} onChange={handleChange} name="name" />
             </div>
-            <div class="contact">
+            <div className="contact">
               <label htmlFor="email">Email address:</label>
               <input type="email" defaultValue={email} name="email" onChange={handleChange} />
             </div>
-            <div class="contact">
+            <div className="contact">
               <label htmlFor="message">Message:</label>
               <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
             </div>
             {errorMessage && (
-                <div class="contact">
+                <div className="contact">
                     <p>{errorMessage}</p>
                 </div>
             )}
