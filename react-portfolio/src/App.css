@@ -151,3 +151,22 @@ header button{
   font-size: 1.2vw;
   padding: 2px 0 5px 0;
 }
+
+.contact{
+  color: white;
+  margin: 10px auto 10px auto;
+  width: 50%;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  border-top: solid;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+            /* Height of the footer*/ 
+  height: 40px;
+  background: grey;
+}

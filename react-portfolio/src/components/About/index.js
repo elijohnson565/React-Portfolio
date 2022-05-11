@@ -5,11 +5,11 @@ function About(){
 
     return(
         <section>
-        <h1 class="sections" id="about-me">About Me</h1>
+        <h1 className="sections" id="about-me">About Me</h1>
 
-       <div class="about-me">
+       <div className="about-me">
       
-           <div class="flex-right">
+           <div className="flex-right">
                
             <p>My name is Elijah Johnson and I am a 23 year old aspiring full stack web developer. 
                 Ive had a passion for coding since I was 16 and have been mostly self taught. I started learning as much as I could over a couple years from youtube and forums, and then began making video games. I finished and released two before I 
