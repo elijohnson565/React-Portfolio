@@ -2,6 +2,7 @@ import React from 'react'
 import cmntImg from "../../assets/cmnt img.PNG";
 import readMeImg from "../../assets/readme-gen.PNG"
 import covidByCountryImg from "../../assets/covid-by-country.PNG"
+import dueImg from "../../assets/dueimg.PNG"
 function Projects(){
     return (
         <section className="my-work" id="my-work">
@@ -20,6 +21,11 @@ function Projects(){
                 <h1>Covid By Country</h1>
                 <a href="https://elijohnson565.github.io/Covid-By-Country/"><img src={covidByCountryImg} alt="" /></a>
                 <p className="text-color desc">Covid By Country is a website that allows you to search for a country, and receive accurate, current data on the Covid19 pandemic in that country. You can see the current death total since 2020, the current case total, and total global cases</p>
+            </div>
+            <div className="projects text-color">
+                <h1>Due.</h1>
+                <a href="https://budget-tracker-final-project.herokuapp.com/login"><img src={dueImg} alt="" /></a>
+                <p className="text-color desc">Due is an easy to use, simple bill tracker. It lets you know when bills are coming and gives you an easy way to pay them!</p>
             </div>
        
         </section>
